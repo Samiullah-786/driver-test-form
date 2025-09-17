@@ -387,9 +387,9 @@ const fullQuizData = [
     correctAnswerIndex: 1
   },
   {
-    question: "<img src='Q5/13.png' width='100%'> Tick the sign of “Turn to the left” ",
+    question: "<img src='Q5/14.png' width='100%'> Tick the sign of “Turn to the left” ",
     options: [
-      "Q5/14.png",
+      "Q5/13.png",
       "Q5/15.png",
       "Q5/16.png"
     ],
@@ -613,4 +613,5 @@ function downloadExcel() {
 
 // Initial state: show form, hide quiz elements
 document.getElementById("question").classList.add("hidden");
+
 document.getElementById("options").classList.add("hidden");
