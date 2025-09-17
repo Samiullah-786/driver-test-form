@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Road Sign Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="text">
+            <h1>Pyramid Gas Pvt Ltd</h1>
+        </div>
+        <button id="theme-toggle-btn">💡</button>
+    </nav>
+    <h1 class="h1">Driver Road Sign Test</h1>
+    <div class="quiz-container">
+        <div id="driver-details-form">
+            <h2>Enter Your Details to Start the Test</h2>
+            <label for="driverName">Driver Name:</label>
+            <input type="text" id="driverName" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" required>
+
+            <label for="cnicNumber">CNIC Number:</label>
+            <input type="text" id="cnicNumber" required>
+
+            <label for="licenseType">License Type:</label>
+            <select id="licenseType">
+                <option value="LTV">LTV</option>
+                <option value="HTV">HTV</option>
+            </select>
+            <button id="startBtn">Start Quiz</button>
+        </div>
+
+        <p id="question" class="hidden"></p>
+        <div class="options hidden" id="options"></div>
+        <button id="nextBtn" class="hidden">Next</button>
+        <div id="result"></div>
+        <button id="downloadBtn" class="hidden">Download Results as Excel</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
