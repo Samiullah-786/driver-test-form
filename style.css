@@ -1,5 +1,6 @@
 :root {
-  --primary-color: #007bff;
+  /* --primary-color: #137bea; */
+  --primary-color: #838383;
   --secondary-color: #f0f8ff;
   --text-color: #333;
   --bg-color: #f4f4f4;
@@ -7,6 +8,7 @@
   --border-color: #ccc;
   --shadow-color: rgba(0, 0, 0, 0.2);
   --primary-color1: #888;
+  --border: 3px solid rgb(75, 83, 234);
 }
 
 
@@ -62,6 +64,8 @@ nav .logo img {
   height: 80px;
   width: 80px;
   border-radius: 50%;
+  background-color: #ccc;
+  border: var(--border);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   animation: pulse 2s infinite ease-in-out;
 }
@@ -96,7 +100,7 @@ nav .text h1 {
   padding-right: 20px;
   margin: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 #theme-toggle-btn {
@@ -317,4 +321,3 @@ th {
     height: 100px;
   }
 }
-
