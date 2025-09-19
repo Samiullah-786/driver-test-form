@@ -298,7 +298,7 @@ const fullQuizData = [
     correctAnswerIndex: 1
   },
   {
-    question: "سوال 7. ٹریفک سگنل پر صرف زرد (Yellow) بتی مسلسل جلنے کا مطلب ہے؟",
+    question: "سوال 7. ٹریفک سگنل پر صرف زرد بتی مسلسل جلنے کا مطلب ہے؟",
     options: [
       "(1) موٹر سائیکل کو تیزی کیساتھ گزارا جا سکتا ہے",
       "(2) موٹر سائیکل کو سٹاپ لائن سے پہلے روک لیں",
@@ -406,7 +406,7 @@ const fullQuizData = [
     correctAnswerIndex: 2
   },
   {
-    question: "سوال 3. موٹر سائیکل سوار تین لین والی روڈ پر اگر دائیں جانب یوٹرن (U-turn) لینا چاہے تو اسے کس لین میں ہونا چاہیے؟",
+    question: "سوال 3. موٹر سائیکل سوار تین لین والی روڈ پر اگر دائیں جانب یوٹرن لینا چاہے تو اسے کس لین میں ہونا چاہیے؟",
     options: [
       "(1) انتہائی بائیں لین میں",
       "(2) درمیان والی لین میں",
@@ -424,7 +424,7 @@ const fullQuizData = [
     correctAnswerIndex: 0
   },
   {
-    question: "سوال 4. کلر بلائنڈنس (color blindness) کا مریض کن سڑکوں پر موٹر سائیکل چلا سکتا ہے؟",
+    question: "سوال 4. کلر بلائنڈنس کا مریض کن سڑکوں پر موٹر سائیکل چلا سکتا ہے؟",
     options: [
       "(1) ہائی وے پر",
       "(2) شہری حدود کے اندر",
@@ -496,7 +496,7 @@ const fullQuizData = [
     correctAnswerIndex: 0
   },
   {
-    question: "سوال 8. PPC کی کس دفعہ کے تحت لا پرواہی اور غفلت سے ڈرائیونگ کرنے کے خلاف کاروائی کی جاسکتی ہے؟",
+    question: "سوال 8. پاکستان پینل کوڈ کی کس دفعہ کے تحت لا پرواہی اور غفلت سے ڈرائیونگ کرنے کے خلاف کاروائی کی جاسکتی ہے؟",
     options: [
       "(1) دفعہ 279",
       "(2) دفعہ 278",
@@ -675,7 +675,7 @@ const fullQuizData = [
     correctAnswerIndex: 0
   },
   {
-    question: "سوال 8. U-Turn (یوٹرن) سے کیا مراد ہے؟",
+    question: "سوال 8. (یوٹرن) سے کیا مراد ہے؟",
     options: [
       "(1) آگے سیدھے جانا",
       "(2) دائیں مڑنا",
@@ -783,7 +783,7 @@ const fullQuizData = [
     correctAnswerIndex: 2
   },
   {
-    question: "سوال 4. PPC کی کس دفعہ کے تحت لا پرواہی اور غفلت سے ڈرائیونگ کرنے کے خلاف کاروائی کی جاسکتی ہے؟",
+    question: "سوال 4. پاکستان پینل کوڈ کی کس دفعہ کے تحت لا پرواہی اور غفلت سے ڈرائیونگ کرنے کے خلاف کاروائی کی جاسکتی ہے؟",
     options: [
       "(1) دفعہ 279",
       "(2) دفعہ 278",
@@ -1090,3 +1090,4 @@ function downloadExcel() {
 // Initial state: show form, hide quiz elements
 document.getElementById("question").classList.add("hidden");
 document.getElementById("options").classList.add("hidden");
+
